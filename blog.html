@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial scale-scale=1.0">
+	<title>Hot Beans</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="IMAGES/logo.png" alt="Hot Beans logo"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">PROFILES</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Our certificate and online programs for 2024</h1>
+	
+	</section>
+<!-----------------blog page content-------------------->
+	<section class="blog-content">
+		
+		<div class="row">
+			<div class="blog-left">
+				<img src="IMAGES/certificate.jpg" alt="certificate">
+				<h2>Our certificate and online programs for 2024</h2>
+				<p>In today's fast-paced digital landscape, simplicity reigns supreme in web development, serving as the cornerstone of an exceptional user experience. As developers, we're tasked not only with creating visually appealing websites but also with ensuring that users can navigate them effortlessly and engage with content seamlessly. This is where the principle of simplicity comes into play.</p>
+				<br>
+				<p>Simplicity in web development is about more than just aesthetics; it's about prioritizing clarity, usability, and functionality to deliver an intuitive and enjoyable browsing experience. By embracing simplicity, we can streamline design elements, minimize clutter, and focus on what truly matters: delivering value to our users.</p>
+				<br>
+				<p>In addition to clean design, simplicity also extends to navigation. Users should be able to find what they're looking for quickly and easily, without having to decipher complicated menus or navigate through endless layers of content. Intuitive navigation menus, clear call-to-action buttons, and logical site structures are essential components of a simplified navigation experience.</p>
+				<br>
+				<p>Ultimately, mastering simplicity in web development requires a user-centric approach. By putting ourselves in the shoes of our users and prioritizing their needs and preferences, we can create websites that are not only visually appealing but also intuitive, accessible, and functional. In an era where attention spans are short and competition is fierce, simplicity is the key to standing out and delivering a memorable user experience that keeps visitors coming back for more.</p>
+				
+				<div class="comment-box">
+				
+				<h3>Leave a comment</h3>
+				
+				<form class="comment-form">
+					<input type="text" placeholder="Enter Name">
+					<input type="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your Comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			</div>
+				
+			</div>
+			
+	
+			
+			<div class="blog-right">
+				<h3>Post Category</h3>
+				<div>
+					<span>Business analytics</span>
+					<span>23</span>
+				</div>
+				<div>
+					<span>data science</span>
+					<span>3</span>
+				</div>
+				<div>
+					<span>machine learining</span>
+					<span>6</span>
+				</div>
+				<div>
+					<span>computer science</span>
+					<span>45</span>
+				</div>
+				<div>
+					<span>autocda</span>
+					<span>15</span>
+				</div>
+				<div>
+					<span>commerce</span>
+					<span>22</span>
+				</div>
+				<div>
+					<span>job role</span>
+					<span>32</span>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+<!---------------footer------------------>
+
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Hot Beans is a dynamic web development company dedicated to crafting cutting-edge digital solutions. With a passion<br> for innovation and a commitment to excellence, we transform ideas into captivating online experiences.</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart-o"></i> by Hot Beans</p>
+	</section>
+	
+	<script>
+		
+		var navLinks= document.getElementById("navLinks");
+		
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+</body>
+</html>
